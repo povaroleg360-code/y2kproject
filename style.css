@@ -1,0 +1,123 @@
+.header{
+    padding: 24px 48px 24px 48px;
+}
+.header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    margin-right: 279.53px;
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-right: 279.53px;
+}
+.hero{
+    padding: 169.66px 48px 169.66px 48px;
+    position: relative;
+    height: 581px;
+}
+.hero .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 581px;
+}
+.hero-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 670.7px;
+height: 534.0px;
+text-align: left;
+}
+.hero-img2{
+    width: 465.3px;
+height: 581.7px;
+z-index: 2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+aspect-ratio: 4/5;
+background: rgba(255, 255, 255, 0.00);
+box-shadow: 0 40px 80px -20px rgba(141, 74, 0, 0.06);
+position: absolute;
+top: 0;
+left: 766.67px;
+}
+.hero-img{
+    width: 256.0px;
+height: 256.0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+position: absolute;
+left: 729px;
+top: 375.10px;
+background: rgba(255, 255, 255, 0.00);
+box-shadow: 0 40px 80px -20px rgba(141, 74, 0, 0.06);
+z-index: 100;
+}
+.hero-button{
+    background-color: transparent;
+}
+.desc .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+.desc-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align-last: left;
+    gap: 39px;
+    width: 552.0px;
+height: 590.0px;
+}
+.desc-list{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 24px;
+}
+.desc-wrap{
+    width: 552.0px;
+height: 113.0px;
+padding: 9px 0 8px 32px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+border-left: 4px solid #FE973C;
+text-align: left;
+}
+.desc-quote{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.desc-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.desc-line{
+    width: 32.0px;
+height: 2.0px;
+background: #FDD34D;
+margin: 9px 16px 9px 0;
+}
