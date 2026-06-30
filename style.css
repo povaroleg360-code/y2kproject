@@ -1,3 +1,6 @@
+.container{
+    border: 1px solid red;
+}
 .header{
     padding: 24px 48px 24px 48px;
 }
@@ -8,6 +11,70 @@
 }
 .logo{
     margin-right: 279.53px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px;
+letter-spacing: -1.2px;
+}
+.active{
+    display: flex;
+padding-bottom: 4px;
+flex-direction: column;
+align-items: flex-start;
+border-bottom: 2px solid #FE973C;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #8D4A00;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+}
+.header-link{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #5A5C5C;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+}
+.header-button{
+    display: flex;
+padding: 12px 32px;
+flex-direction: row;
+justify-content: center;
+border-radius: 9999px;
+background: #8D4A00;
+align-items: center;
+width: 163.4px;
+height: 40.0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #FFF0E7;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
 }
 .header-list{
     display: flex;
@@ -17,70 +84,234 @@
     margin-right: 279.53px;
 }
 .hero{
-    padding: 169.66px 48px 169.66px 48px;
-    position: relative;
-    height: 581px;
+    display: flex;
+min-height: 921px;
+padding: 169.66px 48px 169.67px 48px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: radial-gradient(85.61% 61.6% at 50% 50%, rgba(253, 211, 77, 0.15) 0%, rgba(253, 211, 77, 0.00) 70%);
+
 }
 .hero .container{
+display: grid;
+row-gap: 48px;
+column-gap: 48px;
+flex: 1 0 0;
+grid-template-rows: 581.67px;
+grid-template-columns: repeat(12,minmax(0,1fr));
+}
+.hero-contents{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+grid-row: 1 / span 1;
+grid-column: 1 / span 7;
+justify-self: stretch;
+}
+.hero-title{
+    align-self: stretch;
+color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 120px;
+font-style: normal;
+font-weight: 700;
+line-height: 117px;
+letter-spacing: -6.4px;
+background-clip: text;
+}
+.hero-extra{
+    width: 197.3px;
+height: 28.0px;
+padding: 6px 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #5C4900;
+font-family: "Be Vietnam Pro";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+display: flex;
+padding: 6px 16px;
+align-items: flex-start;
+border-radius: 9999px;
+background: #FDD34D;
+white-space: nowrap;
+margin-right: 473.33px;
+}
+.hero-span{
+    background: linear-gradient(90deg, #8D4A00 0%, #FE973C 100%);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.hero-list{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 581px;
+    gap: 24px;
+    margin-right: 222.97px;
 }
-.hero-contents{
+.hero-text{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 670.7px;
-height: 534.0px;
-text-align: left;
+flex-direction: column;
+justify-content: center;
+color: #5A5C5C;
+font-family: "Be Vietnam Pro";
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+width: 519.3px;
+height: 96.0px;
+margin-right: 151.4px;
+}
+.image-wrap{
+    position: relative;
+    width: 480.2px;
+height: 605.2px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+grid-row: 1 / span 1;
+grid-column: 8 / span 5;
 }
 .hero-img2{
     width: 465.3px;
 height: 581.7px;
-z-index: 2;
 display: flex;
+transform: rotate(3deg);
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-aspect-ratio: 4/5;
-background: rgba(255, 255, 255, 0.00);
-box-shadow: 0 40px 80px -20px rgba(141, 74, 0, 0.06);
 position: absolute;
 top: 0;
-left: 766.67px;
+right: 14.9px;
+aspect-ratio: 4/5;
+border-radius: 48px;
+background: rgba(255, 255, 255, 0.00);
+box-shadow: 0 40px 80px -20px rgba(141, 74, 0, 0.06);
+}
+.hero-img3{
+    width: 16.0px;
+height: 16.0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.hero-button{
+    display: flex;
+padding: 20px 40px;
+align-items: center;
+gap: 12px;
+border-radius: 9999px;
+background: #8D4A00;
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: #FFF0E7;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+width: 247.0px;
+height: 60.0px;
+}
+.hero-button2{
+    display: flex;
+padding: 21px 40px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 9999px;
+border: 1px solid rgba(172, 173, 173, 0.20);
+background: #FFF;
+width: 176.7px;
+height: 64.0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
 }
 .hero-img{
     width: 256.0px;
 height: 256.0px;
+z-index: 2;
 display: flex;
+transform: rotate(-6deg);
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 position: absolute;
-left: 729px;
-top: 375.10px;
+top: 364.77px;
+right: 236.66px;
+border-radius: 48px;
 background: rgba(255, 255, 255, 0.00);
 box-shadow: 0 40px 80px -20px rgba(141, 74, 0, 0.06);
-z-index: 100;
 }
-.hero-button{
-    background-color: transparent;
+.desc{
+    display: flex;
+padding: 128px 48px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+background: #F6F6F6;
 }
 .desc .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
+    display: inline-grid;
+row-gap: 80px;
+column-gap: 80px;
+align-self: stretch;
+grid-template-rows: 736px;
+grid-template-columns: repeat(2,minmax(0,1fr));
 }
 .desc-contents{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align-last: left;
+    text-align: left;
     gap: 39px;
     width: 552.0px;
 height: 590.0px;
+margin-top: 73px;
+margin-right: 80px;
+}
+.desc-header{
+    align-self: stretch;
+color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -3px;
+}
+.desc-text{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #5A5C5C;
+font-family: "Be Vietnam Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 32.5px;
 }
 .desc-list{
     display: flex;
@@ -120,4 +351,50 @@ line-height: 32px;
 height: 2.0px;
 background: #FDD34D;
 margin: 9px 16px 9px 0;
+}
+.desc-wrap2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+grid-row: 1 / span 1;
+grid-column: 2 / span 1;
+justify-self: stretch;
+position: relative;
+width: 642px;
+padding-left: 90px;
+}
+.desc-image{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+align-self: stretch;
+aspect-ratio: 3/4;
+border-radius: 48px;
+background: rgba(255, 255, 255, 0.00);
+box-shadow: 0 25px 50px -12px rgba(141, 74, 0, 0.05);
+width: 552.0px;
+height: 736.0px;
+}
+.gradient1{
+    width: 160.0px;
+height: 160.0px;
+position: absolute;
+left: ;
+bottom: ;
+border-radius: 9999px;
+background: rgba(253, 211, 77, 0.20);
+filter: blur(32px);
+z-index: -1;
+}
+.gradient2{
+    width: 240.0px;
+height: 240.0px;
+position: absolute;
+right: ;
+top: ;
+border-radius: 9999px;
+background: rgba(254, 151, 60, 0.10);
+filter: blur(32px);
+z-index: -1;
 }
