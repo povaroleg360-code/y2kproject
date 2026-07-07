@@ -16,3 +16,14 @@ button{
 	border: none;
     white-space: nowrap;
 }
+td,
+th{
+    display: table-cell;
+    vertical-align: middle;
+}
+tr{
+    display: table-row;
+}
+table{
+    display: table;
+}
