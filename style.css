@@ -751,6 +751,7 @@ line-height: 16px;
 letter-spacing: 2.4px;
 text-transform: uppercase;
 display: table-cell;
+margin-left: 100px;
 }
 .table-heading4{
     width: 244.8px;
