@@ -576,6 +576,11 @@ border-radius: 48px;
 }
 .evolution{
     padding: 128px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+align-self: stretch;
+background: #F6F6F6;
 }
 .evolution-wrap2{
     width: 1024.0px;
@@ -590,6 +595,34 @@ align-self: stretch;
 .evolution .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.evolution-title{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: -3px;
+}
+.evolution-text{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #5A5C5C;
+text-align: center;
+font-family: "Be Vietnam Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 512.0px;
+height: 48.0px;
 }
 .table-status1{
     display: flex;
@@ -915,4 +948,51 @@ padding: 37.5px 32px 38px 32px;
 .evolution-table td {
     text-align: left;
     vertical-align: middle;
+}
+.join-fwrap{
+    width: 456.0px;
+height: 366.0px;
+align-self: start;
+aspect-ratio: 76/61;
+grid-row: 1 / span 1;
+grid-column: 2 / span 1;
+justify-self: stretch;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.join button{
+    display: flex;
+    padding: 25px 120px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: #2D2F2F;
+    border-radius: 9999px;
+      font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: "Space Grotesk";
+}
+.join button img{
+    width: 16px;
+    height: 16px;
+}
+.join label{
+font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5A5C5C;
+    font-family: "Be Vietnam Pro";
+}
+.join input{
+    padding: 29px 266px 29px 32px;
+    border-radius: 9999px;
+    background: #F0F1F1;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9A9A9A;
+    font-family: "Be Vietnam Pro";
 }
