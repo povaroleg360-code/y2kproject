@@ -30,7 +30,7 @@ font-weight: 900;
 line-height: 32px;
 letter-spacing: -1.2px;
 }
-.active{
+.header-link:hover{
     display: flex;
 padding-bottom: 4px;
 flex-direction: column;
